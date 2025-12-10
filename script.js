@@ -27,7 +27,7 @@ button.addEventListener("click", ()=>{
 const secondButton= document.getElementById("btn-second");
 const lightOn= document.querySelector(".lamp-on");
 const lightOff= document.querySelector(".lamp-off")
-const wrapperSecond= document.querySelector(".wrapper-second-try")
+const secondWrapper= document.querySelector(".wrapper-second-try")
 
 //Qua ho gopcato con display block e none 
 let isOn= false;
