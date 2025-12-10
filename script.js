@@ -20,9 +20,18 @@ const lightOn= document.querySelector(".lamp-on");
 const lightOff= document.querySelector(".lamp-off")
 const wrapper= document.querySelector(".wrapper-second-try")
 
+let isOn= false;
 button.addEventListener("click", ()=>{ 
+    if(isOn===false){
     lightOn.style.display="block";
     lightOff.style.display="none"
     button.innerText="Spegni"
     wrapper.style.backgroundColor="white"
-console.log("cliccato")})
+    isOn=true;
+    }else{
+    lightOn.style.display="none";
+    lightOff.style.display="block"
+    button.innerText="Accendi"
+    wrapper.style.backgroundColor="black"
+    isOn=false}
+    });
