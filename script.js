@@ -1,6 +1,9 @@
 const button= document.getElementById("btn");
+const lightElement= document.getElementById("light");
 //console.log(button)
 
-button.addEventListener("click", ()=>{
-    console.log("cliccato")
+
+//ho semplicemente cambiato la source dell'immagine lightElement
+button.addEventListener("click", ()=>{ 
+    lightElement.src="img/yellow_lamp.png"
 })
