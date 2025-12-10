@@ -4,16 +4,18 @@
     padding: 0;
 }
 
-/***********PRIMO TENTATIVO
-/*
+/***********PRIMO***********************
+
 .wrapper{
     height: 100vh;
     background-color: black;
-}*/
+}
+    
+*/
 
 
 
-/*******Secondo*****************************************
+
 
 .wrapper-second-try{
     height: 100vh;
@@ -27,11 +29,11 @@
 .lamp-on{ 
     display: none;
 }
-*/
 
 
-/********************TERZO METODO*****************************/
 
+
+/********************TERZO METODO******************************
 
 .img-bg-lamp-off{
 background-image: url(../img/white_lamp.png);
@@ -46,3 +48,4 @@ background-repeat: no-repeat;
 height: 500px;
 width: 500px
 }
+*/

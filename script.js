@@ -4,7 +4,11 @@ const wrapper= document.querySelector(".wrapper")
 //console.log(wrapper)
 //console.log(button)
 
+
+
 /*PRIMO METODO
+
+
 //ho semplicemente cambiato la source dell'immagine lightElement
 button.addEventListener("click", ()=>{ 
     lightElement.src="img/yellow_lamp.png"
@@ -12,14 +16,20 @@ button.addEventListener("click", ()=>{
     button.innerText="Spegni"
     //ho dato un div esterno a cui dare un background
     wrapper.style.backgroundColor="white"
-})*/
+})
+    
+*/
 
-/*SECONDO
+
+
+/*SECONDO */
+
 const secondButton= document.getElementById("btn-second");
 const lightOn= document.querySelector(".lamp-on");
 const lightOff= document.querySelector(".lamp-off")
 const wrapperSecond= document.querySelector(".wrapper-second-try")
 
+//Qua ho gopcato con display block e none 
 let isOn= false;
 secondButton.addEventListener("click", ()=>{ 
     if(isOn===false){
@@ -34,7 +44,13 @@ secondButton.addEventListener("click", ()=>{
     secondButton.innerText="Accendi"
     secondWrapper.style.backgroundColor="black"
     isOn=false}
-    });*/
+    });
+    
+
+
+
+/*TERZO METODO
+//dove ho preferito cambiare classe con i relativi background 
 
 const thirdBtn = document.getElementById("btn-3rd");
 const thirdImg = document.getElementById("lamp-img");
@@ -47,3 +63,4 @@ thirdBtn.addEventListener("click", () => {
   thirdImg.classList.remove("img-bg-lamp-off");
   thirdImg.classList.add("img-bg-lamp-on");
 });
+*/
