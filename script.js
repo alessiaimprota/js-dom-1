@@ -1,7 +1,7 @@
 const button= document.getElementById("btn");
 const lightElement= document.getElementById("light");
 const wrapper= document.querySelector(".wrapper")
-console.log(wrapper)
+//console.log(wrapper)
 //console.log(button)
 
 
@@ -11,5 +11,5 @@ button.addEventListener("click", ()=>{
     //cambio innerText di btn
     button.innerText="Spegni"
     //ho dato un div esterno a cui dare un background
-    wrapper.style.backgroundColor="black"
+    wrapper.style.backgroundColor="white"
 })
