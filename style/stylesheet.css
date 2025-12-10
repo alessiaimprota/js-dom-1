@@ -3,8 +3,23 @@
     margin: 0;
     padding: 0;
 }
-
+/*
 .wrapper{
     height: 100vh;
     background-color: black;
+}*/
+
+.wrapper-second-try{
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+ 
+ 
+.lamp-on{ 
+    display: none;
+}
+
+
