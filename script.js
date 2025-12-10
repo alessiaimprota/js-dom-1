@@ -6,4 +6,5 @@ const lightElement= document.getElementById("light");
 //ho semplicemente cambiato la source dell'immagine lightElement
 button.addEventListener("click", ()=>{ 
     lightElement.src="img/yellow_lamp.png"
+    button.innerText="Spegni"
 })
